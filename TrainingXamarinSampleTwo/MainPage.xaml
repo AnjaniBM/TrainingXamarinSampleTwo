@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainingXamarinSampleTwo.MainPage"
+             BackgroundColor="Beige">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Entry Placeholder="Enter your First name" x:Name="fName" />
+        <Entry Placeholder="Enter your Last name" x:Name="lName" />
+        <Label Text="Full Name" x:Name="label1" ></Label>
+
+        <Button BackgroundColor="DarkCyan" Text="Click Me!" TextColor="Black" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
